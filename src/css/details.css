@@ -1,0 +1,444 @@
+body {
+  background: #f3f3f3 !important;
+}
+
+.catitmlst {
+  display: none;
+}
+
+.u-ck {
+  -webkit-appearance: none;
+  cursor: pointer;
+  width: 17px;
+  height: 21px;
+  margin: 0 5px 0 5px;
+  background: url(../img/cartselect.png) no-repeat 0 -48px;
+}
+
+#main {
+  margin-top: 1px;
+}
+#main #resultwrap {
+  height: auto;
+  width: 100%;
+}
+#main #resultwrap .filterbox {
+  height: 36px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#main #resultwrap .filterbox .hdorder {
+  height: 36px;
+  background-color: #fff;
+}
+#main #resultwrap .filterbox .hdorder .order {
+  display: inline-block;
+}
+#main #resultwrap .filterbox .hdorder .order dd {
+  position: relative;
+  float: left;
+  width: 65px;
+  height: 36px;
+  line-height: 36px;
+  margin: -1px;
+  margin-left: 0;
+  font-size: 13px;
+  color: #333;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+  text-align: center;
+}
+#main #resultwrap .filterbox .hdorder .order dd .arrow {
+  display: none;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 8px;
+  height: 10px;
+  background: url(../img/iconnew.png) no-repeat 0 -13px;
+}
+#main #resultwrap .filterbox .hdorder .order dd .arrow_up {
+  background-position: -23px -13px;
+}
+#main #resultwrap .filterbox .hdorder .order .active {
+  position: relative;
+  border: 1px solid #e31436;
+  color: #e31436;
+}
+#main #resultwrap .filterbox .hdorder .m-priceBox {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  width: 124px;
+  height: 36px;
+  font-size: 14px;
+}
+#main #resultwrap .filterbox .hdorder .m-priceBox:hover .priceInputs {
+  left: 7px;
+  top: 8px;
+  border: 1px solid #eaeaea;
+  height: 68px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+#main #resultwrap .filterbox .hdorder .m-priceBox:hover .priceInputs .clearbtn {
+  display: block;
+}
+#main #resultwrap .filterbox .hdorder .m-priceBox:hover .priceInputs .btnconfirm {
+  display: block;
+}
+#main #resultwrap .filterbox .hdorder .m-priceBox .priceInputs {
+  background: #fff;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  padding: 0 8px;
+}
+#main #resultwrap .filterbox .hdorder .m-priceBox .priceInputs .ipt {
+  width: 34px;
+  line-height: 18px;
+  padding-left: 4px;
+  border: 1px solid #ddd;
+}
+#main #resultwrap .filterbox .hdorder .m-priceBox .priceInputs .ipt:hover {
+  border: 1px solid #739ecc;
+}
+#main #resultwrap .filterbox .hdorder .m-priceBox .priceInputs .clearbtn {
+  display: none;
+  position: absolute;
+  right: auto;
+  left: 15px;
+  top: 42px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #51b8f1;
+  cursor: pointer;
+}
+#main #resultwrap .filterbox .hdorder .m-priceBox .priceInputs .btnconfirm {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  line-height: 16px;
+  margin-left: 5px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  color: #fff;
+  background: #e31436;
+  border: 0;
+  cursor: pointer;
+}
+#main #resultwrap .filterbox .hdorder .mr20 {
+  position: relative;
+  top: -14px;
+  left: -14px;
+  margin-right: 20px;
+}
+#main #resultwrap .filterbox .hdorder .mr20 .m-addr {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+}
+#main #resultwrap .filterbox .hdorder .mr20 .m-addr .iptw {
+  position: relative;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  width: auto;
+  padding: 0 5px;
+  vertical-align: middle;
+  text-align: left;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 12px;
+}
+#main #resultwrap .filterbox .hdorder .mr20 .m-addr .iptw .iptmsg {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  vertical-align: top;
+  width: 114px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#main #resultwrap .filterbox .hdorder .mr20 .m-addr .iptw .iptdown {
+  display: inline-block;
+  border: 4px solid;
+  border-color: #666 transparent transparent transparent;
+}
+#main #resultwrap .filterbox .hdorder .m-addrw {
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+}
+#main #resultwrap .filterbox .hdorder .otherC {
+  position: relative;
+  top: -17px;
+  left: -17px;
+  width: 90px;
+  height: 36px;
+  font-size: 12px;
+  display: inline-block;
+}
+#main #resultwrap .searchresult {
+  width: 100%;
+  height: auto;
+}
+#main #resultwrap .searchresult ul {
+  width: 100%;
+}
+#main #resultwrap .searchresult ul .goods {
+  position: relative;
+  float: left;
+  width: 262px;
+  height: 387px;
+  margin: 0 5px 14px;
+  background-color: #fff;
+  font-size: 12px;
+}
+#main #resultwrap .searchresult ul .goods:hover {
+  z-index: 999;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap {
+  background: #fff;
+  z-index: 1;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap:hover {
+  z-index: 999;
+  border: 1px solid #FF1E32;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap:hover .desc .title h2 {
+  text-decoration: underline;
+  overflow: visible;
+  white-space: pre-wrap;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .img {
+  position: relative;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .img img {
+  display: block;
+  width: 242px;
+  height: 262px;
+  padding: 15px 15px 10px;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .img .ranksTap {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 120px;
+  height: 120px;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .goodsprice {
+  height: 24px;
+  color: #e31436;
+  overflow: hidden;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .goodsprice .cur {
+  display: inline-block;
+  margin-right: 2px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .goodsprice .cur i {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 700;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .goodsprice .oldprice {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: 2px;
+  color: #999;
+  font-size: 12px;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .title h2 {
+  color: #333333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 400;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .saelsinfo {
+  margin-bottom: 10px;
+  position: relative;
+  width: 234px;
+  height: 22px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 13px;
+  color: #e31436;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .saelsinfo .activity {
+  display: inline-block;
+  height: 18px;
+  line-height: 16px;
+  padding: 0 3px;
+  margin-right: 4px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  background: #FF1E32;
+  font-size: 12px;
+  border-radius: 2px;
+  border: 1px solid #FF1E32;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .saelsinfo .ziying {
+  background: #FFF;
+  color: #FF1E32;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .goodsinfo a {
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color: #333;
+  font-weight: 700;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .goodsinfo a .icon {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 12px;
+  height: 14px;
+  background: url(../img/d-icon.png) no-repeat 0 -230px;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .goodsinfo a:hover {
+  text-decoration: underline;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .goodsinfo .proPlace {
+  float: right;
+  max-width: 110px;
+  color: #999;
+}
+#main #resultwrap .searchresult ul .goods .goodswrap .desc .selfflag {
+  margin-top: 13px;
+  color: #999;
+}
+#main #resultwrap .splitPages {
+  text-align: center;
+}
+#main #resultwrap .splitPages span {
+  cursor: pointer;
+  display: inline-block;
+}
+#main #resultwrap .splitPages .upage,
+#main #resultwrap .splitPages .npage {
+  background: #fff;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin: 0 2px;
+}
+#main #resultwrap .splitPages .page {
+  width: 30px;
+  height: 30px;
+  margin: 0 2px;
+  line-height: 28px;
+  border: 1px solid #ccc;
+}
+#main #resultwrap .splitPages .page:hover {
+  border-color: #e31436;
+  color: #e31436;
+}
+#main #resultwrap .splitPages .active {
+  color: #fff;
+  background-color: #e31436;
+  border-color: #e31436;
+  position: relative;
+  z-index: 2;
+}
+#main #resultwrap .splitPages .active:hover {
+  border-color: #e31436;
+  color: #fff;
+}
+#main #resultwrap .splitPages .unsacitve {
+  background: #e8e8e8;
+  color: #bababa;
+}
+#main #resultwrap .splitPages .sacive:hover {
+  border-color: #e31436;
+  color: #e31436;
+}
+#main .tuijian {
+  margin-bottom: 15px;
+  height: 364px;
+  width: 100%;
+}
+#main .tuijian .t-j-h {
+  font-weight: bold;
+  height: 58px;
+  line-height: 58px;
+  color: #333;
+  font-size: 18px;
+}
+#main .tuijian .t-j-h b {
+  padding-left: 12px;
+  font-size: 14px;
+  color: #999;
+}
+#main .tuijian .m-reclst .newRecomItemWrap {
+  background: #fff;
+  width: 206px;
+  height: 304px;
+  float: left;
+  border: 1px solid #EAEAEA;
+  margin: 0 0 15px 12px;
+}
+#main .tuijian .m-reclst .newRecomItemWrap a {
+  display: block;
+}
+#main .tuijian .m-reclst .newRecomItemWrap .t-p img {
+  width: 204px;
+  height: 204px;
+}
+#main .tuijian .m-reclst .newRecomItemWrap .itemTitle {
+  margin-bottom: 9px;
+  padding: 0 15px;
+  height: 40px;
+  overflow: hidden;
+}
+#main .tuijian .m-reclst .newRecomItemWrap .itemTitle a {
+  line-height: 20px;
+  font-size: 12px;
+  color: #333;
+  font-weight: normal;
+  word-break: break-all;
+}
+#main .tuijian .m-reclst .newRecomItemWrap .itemTitle a:hover {
+  text-decoration: underline;
+}
+#main .tuijian .m-reclst .newRecomItemWrap .itemInfo {
+  padding: 0 15px;
+}
+#main .tuijian .m-reclst .newRecomItemWrap .itemInfo .price {
+  line-height: 14px;
+  color: #e31436;
+  font-size: 16px;
+  font-weight: bold;
+}
+#main .tuijian .m-reclst .newRecomItemWrap .itemInfo .price .marprice {
+  padding-left: 5px;
+  color: #999;
+  font-size: 12px;
+  font-weight: normal;
+}
+#main .tuijian .m-reclst .newRecomItemWrap .itemInfo .comment {
+  display: block;
+  height: 24px;
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+#main #recent {
+  margin-bottom: 100px;
+}
+
+/*# sourceMappingURL=details.css.map */

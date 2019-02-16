@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  color: #333;
+  background: #fff;
+  min-height: 100%; }
+
+input {
+  outline: none;
+  border: 0 none; }
+
+ul,
+li {
+  list-style: none; }
+
+.content {
+  width: 1000px;
+  margin: 0 auto; }
+
+#header {
+  height: 100px;
+  background: #fff; }
+  #header .logou {
+    height: 100px; }
+    #header .logou a {
+      display: inline-block;
+      float: left;
+      margin-top: 10px;
+      width: 330px;
+      height: 71px;
+      cursor: pointer;
+      z-index: 9;
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-image: url(../img/logou.png); }
+
+.login-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url(../img/icon.png) no-repeat;
+  background-position: -760px -401px; }
+
+#login {
+  height: 600px;
+  background: #F8F8F8; }
+  #login .login-m {
+    height: 100%;
+    position: relative; }
+    #login .login-m .login-pic {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+    #login .login-m #login-c {
+      width: 350px;
+      height: 289px;
+      background: #fff;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      border: 1px solid #ccc;
+      transform: translateY(-50%); }
+      #login .login-m #login-c .reg-main {
+        width: 350px;
+        padding: 20px 40px 15px;
+        background: #FFF; }
+        #login .login-m #login-c .reg-main .reg-form .form-main {
+          width: 270px; }
+          #login .login-m #login-c .reg-main .reg-form .form-main .reg {
+            border: 1px solid #ccc;
+            width: 270px;
+            height: 39px;
+            padding: 3px 0;
+            border-radius: 2px;
+            margin-bottom: 15px; }
+            #login .login-m #login-c .reg-main .reg-form .form-main .reg .u-reg {
+              display: inline-block;
+              width: 17px;
+              height: 20px;
+              margin: -7px 6px;
+              background-position: 0 -34px; }
+            #login .login-m #login-c .reg-main .reg-form .form-main .reg .email {
+              font-size: 14px;
+              line-height: 31px;
+              width: 230px;
+              height: 31px; }
+          #login .login-m #login-c .reg-main .reg-form .form-main .u-psw {
+            border: 1px solid #ccc;
+            width: 270px;
+            height: 39px;
+            padding: 3px 0;
+            border-radius: 2px;
+            margin-bottom: 15px; }
+            #login .login-m #login-c .reg-main .reg-form .form-main .u-psw .p-reg {
+              display: inline-block;
+              width: 17px;
+              height: 20px;
+              margin: -7px 6px;
+              background-position: -68px -34px; }
+            #login .login-m #login-c .reg-main .reg-form .form-main .u-psw .u-password {
+              font-size: 14px;
+              line-height: 31px;
+              width: 230px;
+              height: 31px; }
+      #login .login-m #login-c .registe {
+        width: 270px;
+        height: 36px;
+        margin-bottom: 10px; }
+        #login .login-m #login-c .registe input {
+          width: 270px;
+          height: 36px;
+          text-align: center;
+          line-height: 36px;
+          color: #fff;
+          border-radius: 2px;
+          background: #FF1E32; }
+          #login .login-m #login-c .registe input:hover {
+            cursor: pointer; }
+      #login .login-m #login-c .oTing {
+        width: 270px;
+        height: 21px;
+        margin-bottom: 10px; }
+        #login .login-m #login-c .oTing .setcook {
+          float: left; }
+          #login .login-m #login-c .oTing .setcook #scheckbox {
+            width: 14px;
+            height: 14px; }
+          #login .login-m #login-c .oTing .setcook label {
+            font-size: 12px;
+            color: #999; }
+            #login .login-m #login-c .oTing .setcook label a {
+              font-size: 12px;
+              text-decoration: none;
+              color: #999; }
+              #login .login-m #login-c .oTing .setcook label a:hover {
+                color: #666; }
+      #login .login-m #login-c .u-icon {
+        background: url(../img/login-log.png) no-repeat; }
+      #login .login-m #login-c .top {
+        position: relative;
+        width: 348px;
+        height: 52px;
+        padding: 0 40px;
+        border-bottom: 1px solid #ddd;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        line-height: 52px;
+        color: #e31436; }
+        #login .login-m #login-c .top .welcome {
+          font-weight: bold; }
+        #login .login-m #login-c .top .tologin {
+          float: right;
+          color: black;
+          font-size: 12px;
+          cursor: pointer; }
+          #login .login-m #login-c .top .tologin a {
+            color: #51b8f1; }
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  background: #fff; }
+  footer .footer {
+    position: relative;
+    padding: 20px 0;
+    line-height: 26px;
+    text-align: center;
+    color: #666; }
+    footer .footer .m-license {
+      margin-left: 20px;
+      font-size: 12px; }
+    footer .footer .sp {
+      margin: 0 20px; }
+    footer .footer .guohui:hover {
+      text-decoration: none; }
+    footer .footer .other {
+      text-align: center;
+      margin: 5px 0 0 0; }
+      footer .footer .other a {
+        display: inline-block;
+        margin-right: 20px;
+        height: 30px; }
+        footer .footer .other a img {
+          width: 100%;
+          height: 100%; }
+    footer .footer a {
+      color: #666;
+      font-size: 14px;
+      text-decoration: none; }
+      footer .footer a:hover {
+        cursor: pointer;
+        opacity: 0.7; }
+
+/*# sourceMappingURL=registe.css.map */

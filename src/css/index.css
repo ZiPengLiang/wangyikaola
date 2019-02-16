@@ -1,0 +1,559 @@
+body {
+  background: #f0f0f0;
+}
+
+#main .w-title-line {
+  height: 75px;
+  padding-top: 25px;
+  border-top: 1px solid #e9e9e9;
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  color: #999;
+  box-sizing: border-box;
+}
+#main .huodong {
+  width: 100%;
+  height: 332px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#main .huodong a {
+  display: inline-block;
+  width: 20%;
+  margin-right: 5%;
+}
+#main .m-popbrands {
+  width: 100%;
+}
+#main .m-popbrands h2 {
+  vertical-align: middle;
+}
+#main .m-popbrands h2 .big {
+  font-weight: bold;
+  color: #333333;
+  font-size: 22px;
+  margin-right: 10px;
+}
+#main .m-popbrands h2 .change {
+  float: right;
+  font-size: 14px;
+  color: #999;
+}
+#main .m-popbrands h2 .change i {
+  display: inline-block;
+  width: 17px;
+  height: 14px;
+  background: url(../img/change.png) no-repeat 0 0;
+  transition: all 0.8s linear;
+}
+#main .m-popbrands h2 .change:hover {
+  text-decoration: underline;
+}
+#main .m-popbrands h2 .change:hover i {
+  transform: rotateZ(180deg);
+}
+#main .m-popbrands .cnt {
+  width: 100%;
+  height: 355px;
+  margin-bottom: 50px;
+}
+#main .m-popbrands .cnt .fixedBrandWrap {
+  width: 220px;
+  float: left;
+  position: relative;
+}
+#main .m-popbrands .cnt .fixedBrandWrap .fixedBrand {
+  position: relative;
+}
+#main .m-popbrands .cnt .fixedBrandWrap .fixedBrand .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 219px;
+  height: 100%;
+  text-align: center;
+}
+#main .m-popbrands .cnt .fixedBrandWrap .fixedBrand .item a {
+  display: block;
+}
+#main .m-popbrands .cnt .fixedBrandWrap .fixedBrand .item a img {
+  width: 219px;
+  height: 219px;
+}
+#main .m-popbrands .cnt .fixedBrandWrap .fixedBrand .item a .txt {
+  position: relative;
+  height: 136px;
+  background-color: #151515;
+  color: #fff;
+  z-index: 12;
+  opacity: 0.8;
+}
+#main .m-popbrands .cnt .fixedBrandWrap .fixedBrand .item a .txt .name {
+  padding-top: 41px;
+  padding-bottom: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#main .m-popbrands .cnt .fixedBrandWrap .fixedBrand .item a .txt .desc {
+  font-size: 14px;
+  margin: 0 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#main .m-popbrands .cnt .fixedBrandWrap .rmtuijian {
+  display: none;
+  position: absolute;
+  top: 80px;
+  opacity: 0.8;
+  width: 28px;
+  height: 48px;
+  background: url(../img/icon.png) no-repeat -645px -299px;
+}
+#main .m-popbrands .cnt .fixedBrandWrap .next {
+  right: 0;
+  background-position: -677px -299px;
+}
+#main .m-popbrands .cnt .recomBrand {
+  float: left;
+  margin: 0 -1px 0 220px;
+  border-top: 1px solid #e9e9e9;
+}
+#main .m-popbrands .cnt .recomBrand .item {
+  position: relative;
+  float: left;
+  width: 217px;
+  height: 177px;
+  border-right: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  overflow: hidden;
+}
+#main .m-popbrands .cnt .recomBrand .item:hover .info .desc {
+  opacity: 0;
+}
+#main .m-popbrands .cnt .recomBrand .item:hover .info img {
+  top: -19px;
+  transform: translateX(-50%) scale(0.66);
+}
+#main .m-popbrands .cnt .recomBrand .item:hover .actions {
+  opacity: 1;
+}
+#main .m-popbrands .cnt .recomBrand .item .info {
+  transform: translateZ(0);
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+#main .m-popbrands .cnt .recomBrand .item .info img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) scale(1);
+  transition: top .3s ease, transform .3s ease;
+  display: block;
+  margin: 12px auto 0;
+  width: 120px;
+  height: 120px;
+  vertical-align: middle;
+}
+#main .m-popbrands .cnt .recomBrand .item .info .desc {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 700;
+  transition: opacity .2s ease .08s;
+}
+#main .m-popbrands .cnt .recomBrand .item .actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+#main .m-popbrands .cnt .recomBrand .item .actions .follow {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 54px;
+  height: 22px;
+  line-height: 20px;
+  color: #999;
+  border: 1px solid #999;
+  text-decoration: none;
+  border-radius: 20px;
+}
+#main .m-popbrands .cnt .recomBrand .item .actions .followers {
+  margin: 99px 50px 8px;
+  color: #999;
+  font-size: 12px;
+}
+#main .m-popbrands .cnt .recomBrand .item .actions .enter {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 36px;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 32px;
+  color: #ff1e3c;
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 32px;
+  border: 2px solid #ff1e3c;
+  font-size: 14px;
+}
+#main .pc-index-module {
+  width: 1100px;
+  height: 852px;
+  margin: 0 auto !important;
+}
+#main .pc-index-module h2 .big {
+  font-weight: bold;
+  color: #333333;
+  font-size: 22px;
+  margin-right: 20px;
+}
+#main .pc-index-module h2 .w-taglist {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+}
+#main .pc-index-module h2 .w-taglist li {
+  float: left;
+  margin-right: 14px;
+}
+#main .pc-index-module h2 .w-taglist li a {
+  color: #666666;
+}
+#main .pc-index-module h2 .w-taglist li a:hover {
+  text-decoration: underline;
+}
+#main .pc-index-module h2 .w-taglist .last {
+  margin-right: 24px;
+}
+#main .pc-index-module h2 .more {
+  color: #666;
+  float: right;
+}
+#main .pc-index-module .cont {
+  height: 541px;
+  background: #fff;
+  border-left: 0;
+}
+#main .pc-index-module .cont .partl {
+  float: left;
+  position: relative;
+}
+#main .pc-index-module .cont .partl .w-secondlist {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}
+#main .pc-index-module .cont .partl .w-secondlist li {
+  float: left;
+  margin: 0 18px 8px 0;
+  width: 82px;
+  height: 42px;
+}
+#main .pc-index-module .cont .partl .w-secondlist li a {
+  display: block;
+  height: 42px;
+  padding: 11px 0;
+  overflow: hidden;
+  font-size: 12px;
+  color: #333;
+  border-radius: 40px;
+  background: #fff;
+  border: 1px solid #eee;
+  width: 82px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+#main .pc-index-module .cont .partl .w-secondlist li a .txt {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 82px;
+  overflow: hidden;
+}
+#main .pc-index-module .cont .partl .w-secondlist li a .txt:hover {
+  color: #FF0000;
+}
+#main .pc-index-module .cont .partm {
+  width: 550px;
+  float: left;
+  border: 1px solid #e9e9e9;
+  border-width: 1px 0;
+}
+#main .pc-index-module .cont .partm .w-activlist li {
+  width: 274px;
+  height: 269px;
+  float: left;
+  text-align: center;
+  border: 1px solid #e9e9e9;
+  border-width: 0 1px 1px 0;
+}
+#main .pc-index-module .cont .partm .w-activlist li a {
+  display: block;
+  padding: 30px 0 0;
+  height: 200px;
+  color: #333;
+}
+#main .pc-index-module .cont .partm .w-activlist li a .tit {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#main .pc-index-module .cont .partm .w-activlist li a .desc {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 10px 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #666;
+}
+#main .pc-index-module .cont .party {
+  width: 219px;
+  border: 1px solid #e9e9e9;
+  border-width: 0 1px 1px 0;
+  float: left;
+  position: relative;
+}
+#main .pc-index-module .cont .party .title {
+  font-size: 16px;
+  line-height: 58px;
+  padding: 0 0 0 10px;
+  color: #333;
+  font-weight: 700;
+  height: 58px;
+  border: 1px solid #e9e9e9;
+  border-width: 1px 1px 1px 0;
+  position: relative;
+}
+#main .pc-index-module .cont .party .title .img_pagebox {
+  position: absolute;
+  top: 0;
+  right: 9px;
+}
+#main .pc-index-module .cont .party .title .img_pagebox .i_pb {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #e1e1e1;
+}
+#main .pc-index-module .cont .party .title .img_pagebox .active {
+  background: black;
+}
+#main .pc-index-module .cont .party .prolist {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+}
+#main .pc-index-module .cont .party .prolist .itemgroup {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#main .pc-index-module .cont .party .prolist .itemgroup .itemsale {
+  border-bottom: 1px dotted #e9e9e9;
+  padding: 27px 14px 0 0;
+  height: 92px;
+}
+#main .pc-index-module .cont .party .prolist .itemgroup .itemsale .pic {
+  position: relative;
+  float: left;
+  margin: 0 7px 0 4px;
+}
+#main .pc-index-module .cont .party .prolist .itemgroup .itemsale .proinfo .tit {
+  line-height: 18px;
+  height: 36px;
+  overflow: hidden;
+}
+#main .pc-index-module .cont .party .prolist .itemgroup .itemsale .proinfo .tit a {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+#main .pc-index-module .cont .party .prolist .itemgroup .itemsale .proinfo .curprice {
+  margin: 6px 0 0;
+  font-size: 18px;
+  color: #ff1e32;
+}
+#main .pc-index-module .cont .party .prolist .itemgroup .itemsale .proinfo .curprice .item2 {
+  color: #999;
+  margin: 0 0 0 12px;
+  font-size: 14px;
+}
+#main .pc-index-module .w-logolist {
+  width: 100%;
+  height: 217px;
+  margin: 20px 0 40px;
+  border: 1px solid #eaeaea;
+  line-height: 167px;
+  background: #fff;
+}
+#main .pc-index-module .w-logolist .txt {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  text-indent: 20px;
+  line-height: 48px;
+  height: 48px;
+  border-bottom: 1px solid #eaeaea;
+}
+#main .pc-index-module .w-logolist .brandListContainer {
+  margin-right: -1px;
+  width: 1111px;
+}
+#main .pc-index-module .w-logolist .brandListContainer .pic {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 220px;
+  height: 167px;
+  border-left: 1px solid #e9e9e9;
+  text-align: center;
+}
+#main .pc-index-module .w-logolist .brandListContainer .pic:hover .follow {
+  display: block;
+}
+#main .pc-index-module .w-logolist .brandListContainer .pic img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#main .pc-index-module .w-logolist .brandListContainer .pic .follow {
+  background-image: url(../img/guanzhu.png);
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-position: 50%;
+}
+#main .pc-index-module .w-logolist .brandListContainer .pic .toast {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12px;
+  margin-left: -38px;
+  padding: 0 20px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #000;
+  opacity: 0;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 12px;
+}
+#main .indexNewRecomWrap {
+  width: 1100px;
+  height: 445px;
+}
+#main .indexNewRecomWrap .newRecomTitle {
+  font-weight: 700;
+  height: 63px;
+  line-height: 38px;
+  color: #333;
+  font-size: 22px;
+  padding: 20px 0 5px;
+}
+#main .indexNewRecomWrap .newRecomTitle b {
+  font-size: 13px;
+  color: #666;
+  padding-left: 12px;
+  font-weight: 400;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap {
+  margin: 0 7px;
+  width: 260px;
+  height: 382px;
+  border: 0;
+  float: left;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap .itemImg {
+  display: block;
+  width: 260px;
+  height: 260px;
+  border: 1px solid #e9e9e9;
+  background-color: #fff;
+  padding: 40px;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap .itemImg img {
+  width: 180px;
+  height: 180px;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap .itemTitle {
+  display: -webkit-box;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-wrap: break-word;
+  height: 50px;
+  margin: 7px 0 14px;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap .itemTitle a {
+  color: #333;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap .itemInfo .price {
+  font-size: 14px;
+  float: left;
+  font-size: 20px;
+  color: #ff1e32;
+  line-height: 14px;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap .itemInfo .price .big {
+  font-size: 20px;
+  font-weight: bold;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap .itemInfo .price .marprice {
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap .itemInfo .comment {
+  float: right;
+  display: block;
+  height: 24px;
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+#main .indexNewRecomWrap .m-reclst .newRecomItemWrap .itemInfo .comment:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=index.css.map */
