@@ -199,6 +199,8 @@ body {
                     }
                     .goodswrap {
                         background: #fff;
+                      
+                        border: 1px solid #fff;
                         z-index: 1;
                         &:hover {
                             z-index: 999;
@@ -230,6 +232,7 @@ body {
                             }
                         }
                         .desc {
+                            padding: 5px 15px;
                             .goodsprice {
                                 height: 24px;
                                 color: #e31436;
